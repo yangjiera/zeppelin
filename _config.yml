@@ -43,8 +43,8 @@ c4sponsorsUrl: "/assets/TODO"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/", text: "Calls"}
  - {permalink: "/organization/", text: "Origanization"}
+ - {permalink: "/", text: "Calls"}
  - {permalink: "/", text: "Venue"}
  - {permalink: "/", text: "Registration"}
  - {permalink: "/#partners", text: "Sponsors"}
