@@ -1,7 +1,7 @@
 ---
+title: Hello World!
+date: 2017-08-05 08:00:00 Z
 layout: post
-title:  "Hello World!"
-date:   2017-08-05 08:00:00
 isStaticPost: false
 ---
 
