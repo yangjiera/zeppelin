@@ -1,4 +1,9 @@
 - 
   group: ""
   elements: 
+    - {name: "User Modeling Inc.", description: "", link: "http://www.um.org", imageUrl: "logo-uminc-200px-150x150.png"}
+    - {name: "ACM", description: "", link: "https://www.acm.org", imageUrl: "acm-spon-150x123.jpg"}
+    - {name: "SIGWEB", description: "", link: "http://www.sigweb.org", imageUrl: "sigweb_logo-150x39.jpg"}
+    - {name: "SIGCHI", description: "", link: "https://sigchi.org", imageUrl: "SIGCHI_logo-150x39.jpg"}
+    - {name: "Singapore Tourism Board", description: "", link: "https://www.stb.gov.sg", imageUrl: "stb_logo.png"}
     - {name: "Nanyang Technological University", description: "", link: "http://www.ntu.edu.sg/Pages/home.aspx", imageUrl: "ntu.png"}

@@ -40,7 +40,7 @@ socialImageSrcGooglePlus: "/img/seo/TODO"
 socialImageSrcTwitter: "/img/seo/TODO"
 socialImageSrcFacebook: "/img/seo/TODO"
 c4pUrl: TODO
-c4sponsorsUrl: "/assets/TODO"
+c4sponsorsUrl: "/sponsors/"
 navigationLinks:
 - permalink: "/"
   text: Home
@@ -52,7 +52,7 @@ navigationLinks:
   text: Venue
 - permalink: "/"
   text: Registration
-- permalink: "/#partners"
+- permalink: "/sponsors/"
   text: Sponsors
 bottomNavigationLinks:
 - link: TODO
