@@ -3,6 +3,7 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             <h3>{{ site.aboutTitle }}</h3>
+            <div class="col-lg-10 col-lg-offset-1  text-left">
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
@@ -19,8 +20,12 @@
                 {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
                 {% endfor %}
             </div>
+            
+            
             <h4> Latest News </h4>
+            <li>Call for contributions are online!</li>
             <li> We’re very excited that UMAP2018 website gets online! More details will come soon.</li>
+            </div>
         </div>
     </div>
 </section>

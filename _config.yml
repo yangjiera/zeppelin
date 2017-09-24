@@ -46,8 +46,10 @@ navigationLinks:
   text: Home
 - permalink: "/organization/"
   text: Origanization
-- permalink: "/"
+- permalink: "/calls/"
   text: Calls
+- permalink: "/important-dates/"
+  text: Important Dates
 - permalink: "/"
   text: Venue
 - permalink: "/"
