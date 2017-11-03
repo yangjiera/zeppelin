@@ -43,7 +43,7 @@ navigationLinks:
 - permalink: "/"
   text: Home
 - permalink: "/organization/"
-  text: Origanization
+  text: Organization
 - permalink: "/calls/"
   text: Call for Contributions
 - permalink: "/important-dates/"
