@@ -64,7 +64,7 @@ typeoutFallback: ''
 heroButtons:
 - permalink: "/#about"
   text: About UMAP
-- permalink: "/"
+- permalink: "/calls/"
   text: Call for Papers
 aboutTitle: About UMAP
 aboutBlock:
