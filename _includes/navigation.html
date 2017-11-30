@@ -1,4 +1,7 @@
 <style>
+.li{
+    font-size: 120%;
+}
 .dropbtn {
     cursor: pointer;
 }
@@ -22,9 +25,11 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size:100%;
+    font-weight: bold; 
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #f1f1f1; color:#0066ff;}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -54,12 +59,12 @@
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  
                 href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" 
                 {% if navigationLink.link != null %}
-                target="_blank"{% endif %}><b>{{ navigationLink.text}}</b></a>
+                target="_blank"{% endif %}><b style="font-size:125%">{{ navigationLink.text}}</b></a>
                 <div class="dropdown-content">
-                    <a href="{{site.baseurl}}/calls/#paper">Call for Papers</a>
-                    <a href="{{site.baseurl}}/calls/#workshop">Call for Workshop Proposals</a>
-                    <a href="{{site.baseurl}}/calls/#tutorial">Call for Tutorials</a>
-                    <a href="{{site.baseurl}}/calls/#demo">Call for Demo, Theory, Opinion and Reflection, and Late-Breaking Results</a>
+                    <a href="{{site.baseurl}}/cfp">Call for Papers</a>
+                    <a href="{{site.baseurl}}/cfw">Call for Workshop Proposals</a>
+                    <a href="{{site.baseurl}}/cft">Call for Tutorials</a>
+                    <a href="{{site.baseurl}}/cfd">Call for Demo, Theory, Opinion and Reflection, and Late-Breaking Results</a>
                 </div>
                 </div>
 
@@ -67,7 +72,7 @@
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  
                 href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" 
                 {% if navigationLink.link != null %}
-                target="_blank"{% endif %}><b>{{ navigationLink.text}}</b></a>
+                target="_blank"{% endif %}><b style="font-size:125%">{{ navigationLink.text}}</b></a>
                 {% endif %}
             </li>
             {% endfor %}
